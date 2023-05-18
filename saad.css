@@ -1,0 +1,10 @@
+/* Selectors */
+h1,h2{
+    color:black;
+    background-color: cadetblue;
+}
+p,li,td,form,summary{
+    color: red;
+    background-color: burlywood;
+    font: 1em sans-serif;
+}

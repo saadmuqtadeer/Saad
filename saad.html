@@ -1,0 +1,168 @@
+<!-- this line is to show that the document is html type -->
+<!DOCTYPE html>
+
+<!-- here the html code starts which has lang as variable and that contains english language -->
+<html lang="en">
+
+<!-- head of html -->
+<!-- is used to describe,add keywords,link css,js to your website -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- adding more specifications to the site -->
+    <meta name="description" content="This site is build by the great genius scientist SAAD Alhumdulillah">
+    <meta name="keywords" content="saad,Abdul Muqtadeer,saadmuqtadeer">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <title>Saad</title>
+    <!-- linking css and js file to html -->
+    <link rel="stylesheet" href="saad.css">
+    <script src="saad.js"></script>
+</head>
+
+
+
+
+<!-- body of html -->
+<body>
+
+    <!-- h1 is a tag is used to provide headings.The font size of the heading may differ by using the differnt tags h1,h2,h3,h4,h5 and h6 size decreses as the number increses -->
+    <h1>Introduction:</h1>
+
+    <!-- p is also a tag used to provide a paragraph,Lorem is an Emmit abbreviation used to declare the number the texts paragraph contain 4,44,404,... -->
+    <p>Hi. This is Mohd Abdul Muqtadeer You can also call me Saad.I am 20 years old and I am about to complete my graduation(3rd year) from MVSR Engineering college. This is my first website which I have developed by seeing tutorials on Youtube.<strong>Saad </strong>means helping person and <b>Abdul Muqtadeer</b> is one of the name of Allah subahanwatallah which means most powerfull person.So, this are my some of the sites which describes my profile this will redirect you to my profile pages <em> i.e linkdin, facebook, Gmail Address, etc</em> these are given below:</p>
+
+    <!-- anchor is an element or tag use to redirect you to the given web,photo,email,etc -->
+    <a href="https://linkedin.com" target="_blank">Go to linkdin</a><br>   
+    <a href="https://google.com"target="_blank">Go to Google</a><br>
+    <a href="https://facebook.com"target="_blank">Go to Facebook</a><br>  
+    <a href="/saad.html" target="_blank">Go to Saad site</a>
+    <hr>
+    <h2>Image:</h2>
+    <img src="saad.png" alt="Error in loading" height="150" width="150">
+    <hr>
+
+    <!-- list -->
+    <h2>Sports:</h2>
+    <ul type="circle">
+        <li>I am good at volley ball</li>
+        <li>I can play table tennis</li>
+        <li>Circket is my childhood game</li>
+        <li>I also won an award in chess</li>
+    </ul>
+    <h2>Achivements:</h2>
+    <ol type="1">
+        <li>Won numerous medal in school</li>
+        <li>Condonation at SIH 2022</li>
+        <li>Awarded for best student award</li>
+        <li>Won chess in school sports</li>
+    </ol>
+    <hr>
+    
+    <!-- table -->
+    <h2>Grades:</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Degree</th>
+                <th>School/College</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Schooling</td>
+                <td>Javid Mission High School</td>
+                <td>88%</td>
+            </tr>
+            <tr>
+                <td>Intermidiate</td>
+                <td>Ms Junior College</td>
+                <td>90%</td>
+            </tr>
+            <tr>
+                <td>Graduation</td>
+                <td>Mvsr Engineering College</td>
+                <td>8.5/10(GPA)</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <!-- Form -->
+    <h2>Fill the below form:</h2>
+    <form>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="mytext" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="role">Role</label>
+            <input type="text" name="myrole" id="role">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email Address</label>
+            <input type="email" name="myemail" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="phonenumber">Phone number</label>
+            <input type="phone number" name="myPhonenumber" id="phonenumber" maxlength="10">
+        </div>
+        <br>
+        <div>
+            <label for="date">DOB</label>
+            <input type="date" name="mydate" id="date">
+        </div>
+        <br>
+        <div>
+            <label for="salary">Salary</label>
+            <input type="number" name="mysalary" id="salary">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender:</label>
+            Male<input type="radio" name="myGender" id="gender">
+            female<input type="radio" name="myGender" id="gender">
+            Other<input type="radio" name="myGender" id="gender">
+        </div>
+        <br>
+        <div>
+            <label for="course">Course</label>
+            <select name="myCourse" id="course">
+                <option value="cse">CSE</option>
+                <option value="it">IT</option>
+                <option value="mec">MEC</option>
+                <option value="civil">CIVIL</option>
+                <option value="eee">EEE</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="description">Description:</label>
+            <textarea name="textArea" id="description" cols="40" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="robot">I have read all terms and conditions:</label>
+            <input type="checkbox" name="myrobot" id="robot">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now" alt="No database found">
+            <input type="reset" value="Reset Now">
+        </div>
+        <br>
+    </form>
+    <hr>
+    <h2>Details</h2>
+    <details>
+        <summary>idea Approach</summary>
+        Lorem ipsum dolor sit, <br>amet consectetur adipisicing elit. Voluptatibus repudiandae eveniet ad voluptas<br> quo eaque nostrum. Deleniti, voluptatem repellat debitis tempore ab, inventore non eaque animi rerum modi fugiat illum.
+    </details>
+
+</body>
+
+</html>
